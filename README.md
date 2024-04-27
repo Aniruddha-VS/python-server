@@ -1,3 +1,3 @@
 # python-server
 
-User Commits -> Auto trigger on AWS Codepipeline { CodeBuild + CodeDeploy }
+User Commits -> Auto trigger on AWS Codepipeline { CodeBuild + CodeDeploy } !
