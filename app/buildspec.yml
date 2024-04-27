@@ -23,7 +23,7 @@ phases:
       - echo "$DOCKER_REGISTRY_URL/$DOCKER_REGISTRY_USERNAME/$APP_NAME:latest"
   post_build:
     commands:
-      - docker push "$DOCKER_REGISTRY_URL/$DOCKER_REGISTRY_USERNAME/$APP_NAME:$DOCKER_IMAGE_TAG"
+      - docker push "$DOCKER_REGISTRY_URL/$DOCKER_REGISTRY_USERNAME/$APP_NAME:latest"
 artifacts:
   files:
     - "**/*"
