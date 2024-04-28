@@ -1,4 +1,6 @@
 #!/bin/bash
 set -e
 
-echo "Hi1"
+CONTAINER_ID=`docker ps | awk -F " " '{print $1}'`
+
+docker rm -f $CONTAINER_ID
